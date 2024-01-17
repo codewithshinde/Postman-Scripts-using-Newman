@@ -1,0 +1,13 @@
+{
+  "name": "Postman Example",
+  "version": "1.0.0",
+  "description": "",
+  "author": "codewithshinde",
+  "license": "ISC",
+  "scripts": {
+    "exec": "node ./save-response.js"
+  },
+  "dependencies": {
+    "newman": "^6.1.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "555e88db-1800-4e15-b4b8-08fc8188be87",
+		"name": "POST_MAN_TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29620112",
+		"_collection_link": "https://dark-station-588454.postman.co/workspace/Hungry-Panda~a13f708d-ca90-4051-8539-79f4bc711769/collection/29620112-555e88db-1800-4e15-b4b8-08fc8188be87?action=share&source=collection_link&creator=29620112"
+	},
+	"item": [
+		{
+			"name": "SEND_SMS_SAMPLE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/{{post_id}}",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"{{post_id}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
